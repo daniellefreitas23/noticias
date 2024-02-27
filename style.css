@@ -80,7 +80,7 @@ body {
     padding-bottom: 1.75rem;
 }
 
-.segunda-secao h2{
+.segunda-secao h2 {
     color: var(--yellow);
     font-size: 2rem;
     line-height: 100%;
@@ -95,9 +95,39 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.segunda-secao p{
+.segunda-secao p {
     color: var(--silver);
     font-size: 0.9375rem;
     line-height: 1.625rem;
 }
 
+.terceira-secao > div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.terceira-secao img {
+    max-width: 6.25rem;
+}
+
+.terceira-secao strong {
+    color: var(--silver);
+    font-size: 2rem;
+    list-style: 100%;
+}
+
+.terceira-secao h2 {
+    color: var(--dark-blue);
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    margin-block: 0.6rem;
+}
+
+.terceira-secao p {
+    color: var(--gunmetal);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+}
